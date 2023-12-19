@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2015", //編譯目標
+    "module": "commonjs", //不輸出ES6是因為pm2不支援
+    "declaration": true, //輸出d.ts
+    "esModuleInterop":true, //可使用import
+    "outDir": "dist", //輸出目錄
+    "strict": false, //嚴格模式
+    "typeRoots": ["node_modules/@types"], //定義型別檔案位置
+    "resolveJsonModule": true, //可讀取json
+    "skipLibCheck": true, //可以忽略檢查import module 的type錯誤
+    "forceConsistentCasingInFileNames": true, //強制檔案名稱大小寫一致
+  },
+  "include": ["src"], //源程式碼
+  "exclude": ["node_modules"] //忽略檔案
+}

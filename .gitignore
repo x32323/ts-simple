@@ -1,0 +1,19 @@
+# 依賴
+/node_modules
+
+# 編譯輸出
+/dist
+
+# 環境設定文件
+.env
+
+# 系統生成文件
+.DS_Store
+Thumbs.db
+
+# IDE 生成文件
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
